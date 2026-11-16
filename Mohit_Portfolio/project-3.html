@@ -1,273 +1,424 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Case Study of Project 3</title>
-    <meta name="description" content="Case study page of Project" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <link rel="stylesheet" href="css/style.css" />
+  <title>ResumeCraft | Smart Resume Builder</title>
+  <meta name="description" content="ResumeCraft - A full-stack smart resume builder with live preview, PDF generation and email delivery." />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-      rel="stylesheet"/>
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__content">
-        <div class="header__logo-container">
-          <div class="header__logo-img-cont">
-            <img
-              src="./assets/png/Mohit_ImageUpdated.jpg"
-              alt="Mohit pani Logo Image"
-              class="header__logo-img"
-            />
-          </div>
-          <span class="header__logo-sub">Mohit Kumar Pani</span>
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header__content">
+
+      <div class="header__logo-container">
+        <div class="header__logo-img-cont">
+          <img
+            src="./assets/png/Mohit_ImageUpdated.jpg"
+            alt="Mohit Kumar Pani"
+            class="header__logo-img"
+          />
         </div>
-        <div class="header__main">
-          <ul class="header__links">
-            <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Home </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">About </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
-                Projects
-              </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contact </a>
-            </li>
-          </ul>
-          <div class="header__main-ham-menu-cont">
-            <img
-              src="./assets/svg/ham-menu.svg"
-              alt="hamburger menu"
-              class="header__main-ham-menu"
-            />
-            <img
-              src="./assets/svg/ham-menu-close.svg"
-              alt="hamburger menu close"
-              class="header__main-ham-menu-close d-none"
-            />
-          </div>
+
+        <span class="header__logo-sub">Mohit Kumar Pani</span>
+      </div>
+
+      <div class="header__main">
+        <ul class="header__links">
+
+          <li class="header__link-wrapper">
+            <a href="./index.html" class="header__link">Home</a>
+          </li>
+
+          <li class="header__link-wrapper">
+            <a href="./index.html#about" class="header__link">About</a>
+          </li>
+
+          <li class="header__link-wrapper">
+            <a href="./index.html#projects" class="header__link">Projects</a>
+          </li>
+
+          <li class="header__link-wrapper">
+            <a href="./index.html#contact" class="header__link">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="header__main-ham-menu-cont">
+          <img
+            src="./assets/svg/ham-menu.svg"
+            alt="hamburger menu"
+            class="header__main-ham-menu"
+          />
+
+          <img
+            src="./assets/svg/ham-menu-close.svg"
+            alt="hamburger menu close"
+            class="header__main-ham-menu-close d-none"
+          />
         </div>
       </div>
-      <div class="header__sm-menu">
-        <div class="header__sm-menu-content">
-          <ul class="header__sm-menu-links">
-            <li class="header__sm-menu-link">
-              <a href="./index.html"> Home </a>
-            </li>
+    </div>
 
-            <li class="header__sm-menu-link">
-              <a href="./index.html#about"> About </a>
-            </li>
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
 
-            <li class="header__sm-menu-link">
-              <a href="./index.html#projects"> Projects </a>
-            </li>
+          <li class="header__sm-menu-link">
+            <a href="./index.html">Home</a>
+          </li>
 
-            <li class="header__sm-menu-link">
-              <a href="./index.html#contact"> Contact </a>
-            </li>
-          </ul>
+          <li class="header__sm-menu-link">
+            <a href="./index.html#about">About</a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#projects">Projects</a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#contact">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- Project Hero -->
+  <section class="project-cs-hero">
+    <div class="project-cs-hero__content">
+
+      <h1 class="heading-primary">📄 ResumeCraft</h1>
+
+      <div class="project-cs-hero__info">
+        <p class="text-primary">
+          ResumeCraft is a full-stack smart resume builder developed
+          using React, Java, and Spring Boot. It enables users to
+          create professional resumes with a live preview, generate
+          downloadable PDF documents, and send resumes directly
+          through email.
+        </p>
+      </div>
+
+      <div class="project-cs-hero__cta">
+        <a
+          href="https://resume-craft-pink.vercel.app/"
+          class="btn btn--bg"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Live Link
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Project Details -->
+  <section class="project-details">
+    <div class="main-container">
+
+      <div class="project-details__content">
+
+        <!-- Project Image -->
+        <div class="project-details__showcase-img-cont">
+          <img
+            src="./assets/project_photos/resume-craft.jpg"
+            alt="ResumeCraft Smart Resume Builder Screenshot"
+            class="project-details__showcase-img"
+          />
+        </div>
+
+        <div class="project-details__content-main">
+
+          <!-- Project Overview -->
+          <div class="project-details__desc">
+
+            <h3 class="project-details__content-title">
+              Project Overview
+            </h3>
+
+            <p class="project-details__desc-para">
+              <strong>ResumeCraft</strong> is a full-stack smart resume
+              builder designed to simplify the process of creating
+              professional resumes. It provides an interactive interface
+              where users can enter their personal information,
+              educational qualifications, technical skills, projects,
+              and work experience while viewing a
+              <span class="highlight">live resume preview</span>.
+            </p>
+
+            <p class="project-details__desc-para">
+              The application allows users to generate and download
+              professional resumes in PDF format. It also includes
+              an <span class="highlight">email integration feature</span>
+              that enables users to send their generated resumes
+              directly through email.
+            </p>
+
+            <p class="project-details__desc-para">
+              The frontend is developed using
+              <span class="highlight">React and JavaScript</span>,
+              while the backend REST APIs are built using
+              <span class="highlight">Java and Spring Boot</span>.
+              PDF generation is implemented using
+              <span class="highlight">html2canvas and jsPDF</span>.
+              The application is deployed using Vercel for the frontend
+              and Render for the backend.
+            </p>
+
+            <p class="project-details__desc-para">
+              This project demonstrates full-stack development,
+              REST API integration, dynamic UI rendering, PDF generation,
+              email communication, and cloud deployment.
+            </p>
+
+          </div>
+
+          <!-- Tools Used -->
+          <div class="project-details__tools-used">
+
+            <h3 class="project-details__content-title">
+              Tools Used
+            </h3>
+
+            <div class="skills">
+
+              <div class="skill-card">
+                <i class="devicon-react-original colored"></i>
+                <span>React</span>
+              </div>
+
+              <div class="skill-card">
+                <i class="devicon-javascript-plain colored"></i>
+                <span>JavaScript</span>
+              </div>
+
+              <div class="skill-card">
+                <i class="devicon-java-plain colored"></i>
+                <span>Java</span>
+              </div>
+
+              <div class="skill-card">
+                <i class="devicon-spring-plain colored"></i>
+                <span>Spring Boot</span>
+              </div>
+
+              <div class="skill-card">
+                <i class="devicon-html5-plain colored"></i>
+                <span>HTML5</span>
+              </div>
+
+              <div class="skill-card">
+                <i class="devicon-css3-plain colored"></i>
+                <span>CSS3</span>
+              </div>
+
+              <div class="skill-card">
+                <i class="devicon-maven-plain colored"></i>
+                <span>Maven</span>
+              </div>
+
+              <div class="skill-card">
+                <i class="fa-solid fa-file-pdf"></i>
+                <span>PDF Generation</span>
+              </div>
+
+              <div class="skill-card">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email Integration</span>
+              </div>
+
+              <div class="skill-card">
+                <i class="devicon-git-plain colored"></i>
+                <span>Git</span>
+              </div>
+
+              <div class="skill-card">
+                <i class="devicon-github-original colored"></i>
+                <span>GitHub</span>
+              </div>
+
+              <div class="skill-card">
+                <i class="devicon-postman-plain colored"></i>
+                <span>Postman</span>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Project Links -->
+          <div class="project-details__links">
+
+            <h3 class="project-details__content-title">
+              See Project
+            </h3>
+
+            <!-- Live Link -->
+            <a
+              href="https://resume-craft-pink.vercel.app/"
+              class="btn btn--med btn--theme project-details__links-btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Link
+            </a>
+
+            <!-- GitHub Repository -->
+            <a
+              href="https://github.com/mohitkpani/resume-craft"
+              class="btn btn--med btn--theme-inv project-details__links-btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub Repository
+            </a>
+
+          </div>
+
         </div>
       </div>
-    </header>
-    <section class="project-cs-hero">
-      <div class="project-cs-hero__content">
-        <h1 class="heading-primary">StayMate – Rental & PG Management Platform</h1>
-        <div class="project-cs-hero__info">
-          <p class="text-primary">
-           A backend-focused Rental and PG Management Platform developed using Java Spring Boot, providing REST APIs for property management,
-            JWT authentication, property search and filtering, bookings, Razorpay payments, Cloudinary image management, and email notifications.
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="main-container">
+
+      <div class="main-footer__upper">
+
+        <div class="main-footer__row main-footer__row-1">
+
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>Social</span>
+          </h2>
+
+          <div class="main-footer__social-cont">
+
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/mohit-kumar-pani-6b0206228/"
+            >
+              <img
+                class="main-footer__icon"
+                src="./assets/png/linkedin-ico.png"
+                alt="LinkedIn"
+              />
+            </a>
+
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/mohitkpani"
+            >
+              <img
+                class="main-footer__icon"
+                src="./assets/png/github-ico.png"
+                alt="GitHub"
+              />
+            </a>
+
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://x.com/mohitpani007"
+            >
+              <img
+                class="main-footer__icon"
+                src="./assets/png/twitter-ico.png"
+                alt="Twitter"
+              />
+            </a>
+
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.facebook.com/mohit.pani.94"
+            >
+              <img
+                class="main-footer__icon"
+                src="./assets/png/Facebook Icon.jpg"
+                alt="Facebook"
+              />
+            </a>
+
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.instagram.com/mohit_pani"
+            >
+              <img
+                class="main-footer__icon main-footer__icon--mr-none"
+                src="./assets/png/insta-ico.png"
+                alt="Instagram"
+              />
+            </a>
+
+          </div>
+        </div>
+
+        <div class="main-footer__row main-footer__row-2">
+
+          <h4 class="heading heading-sm text-lt">
+            Mohit Kumar Pani
+          </h4>
+
+          <p class="main-footer__short-desc">
+            <strong>Mobile:</strong> 9692265911 <br />
+
+            <strong>Email:</strong>
+            <a
+              href="mailto:mohitpani007@gmail.com"
+              style="color: #eee;"
+            >
+              mohitpani007@gmail.com
+            </a>
+            <br />
+
+            <strong>Location:</strong> Bhubneswar, Odisha, India
           </p>
-        </div>
-        <div class="project-cs-hero__cta">
-          <a href="https://github.com/mohitkpani/staymate" class="btn btn--bg" target="_blank">Project Link</a>
+
         </div>
       </div>
-    </section>
-    <section class="project-details">
-      <div class="main-container">
-        <div class="project-details__content">
-          <div class="project-details__showcase-img-cont">
-            <img
-              src="./assets/project_photos/staymate.png"
-              alt="Project Image"
-              class="project-details__showcase-img"
-            />
-          </div>
-          <div class="project-details__content-main">
-            <div class="project-details__desc">
-              <h3 class="project-details__content-title">Project Overview</h3>
-             <p class="project-details__desc-para">
-   <strong>StayMate</strong> is a Rental and PG Management Platform developed using Java Spring Boot, designed to simplify property discovery, rental management, 
-    bookings, payments, and user management. The platform provides REST APIs for user authentication, property management, property search and 
-    filtering, booking management, payment processing, image management, and email notifications. It implements JWT-based authentication, role-based
-     access control, password encryption using BCrypt, and Google OAuth2 login. Property owners and administrators can manage properties, 
-     availability, images, and bookings, while Cloudinary is used for property image storage and Razorpay is integrated for payment processing.
-</p>
 
-<p class="project-details__desc-para">
-    The application follows a structured layered architecture consisting of Controller, Service, Repository, and Database layers. MySQL is used 
-    for data storage with Spring Data JPA and Hibernate for database interaction and persistence. The platform supports booking creation, room 
-    selection, booking amount calculation, booking cancellation, payment verification, and payment status tracking. Email notifications are 
-    implemented for welcome messages, booking confirmations, payment confirmations, and cancellations. The backend REST APIs were tested using 
-    Postman, while Maven is used for project build and dependency management. Properties also support latitude and longitude information for 
-    location-based functionality.
-</p>
-            </div>
-            <div class="project-details__tools-used">
-              <h3 class="project-details__content-title">Tools Used</h3>
-         <div class="skills">
-
-  <div class="skill-card">
-    <i class="devicon-java-plain colored"></i>
-    <span>Java 21</span>
-</div>
-
-<div class="skill-card">
-    <i class="devicon-spring-plain colored"></i>
-    <span>Spring Boot</span>
-</div>
-
-<div class="skill-card">
-    <i class="devicon-spring-plain colored"></i>
-    <span>Spring Security</span>
-</div>
-
-<div class="skill-card">
-    <i class="devicon-hibernate-plain colored"></i>
-    <span>Hibernate</span>
-</div>
-
-<div class="skill-card">
-    <i class="devicon-mysql-plain colored"></i>
-    <span>MySQL</span>
-</div>
-
-<div class="skill-card">
-    <i class="devicon-maven-plain colored"></i>
-    <span>Maven</span>
-</div>
-
-<div class="skill-card">
-    <i class="devicon-postman-plain colored"></i>
-    <span>Postman</span>
-</div>
-
-<div class="skill-card">
-    <i class="devicon-git-plain colored"></i>
-    <span>Git</span>
-</div>
-
-<div class="skill-card">
-    <i class="devicon-github-original colored"></i>
-    <span>GitHub</span>
-</div>
-
-<div class="skill-card">
-    <i class="fa-solid fa-credit-card"></i>
-    <span>Razorpay</span>
-</div>
-
-</div>
-            </div>
-            <div class="project-details__links">
-              <h3 class="project-details__content-title">See Project</h3>
-              <a
-                href="https://github.com/mohitkpani/staymate"
-                class="btn btn--med btn--theme project-details__links-btn"
-                target="_blank"
-                >Code Link</a
-              >
-              <a
-                href="https://github.com/mohitkpani/staymate"
-                class="btn btn--med btn--theme-inv project-details__links-btn"
-                target="_blank"
-                >Development</a
-              >
-            </div>
-          </div>
-        </div>
+      <div class="main-footer__lower">
+        &copy; Copyright 2027. Made by
+        <a rel="noreferrer" target="_blank" href="#">
+          Mohit Kumar Pani
+        </a>
       </div>
-    </section>
-    <footer class="main-footer">
-      <div class="main-container">
-        <div class="main-footer__upper">
-          <div class="main-footer__row main-footer__row-1">
-            <h2 class="heading heading-sm main-footer__heading-sm">
-              <span>Social</span>
-            </h2>
-            <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/mohit-kumar-pani-6b0206228/">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/linkedin-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="https://github.com/mohitkpani">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/github-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="https://x.com/mohitpani007">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/twitter-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="https://www.facebook.com/mohit.pani.94">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/Facebook Icon.jpg"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/mohit_pani">
-                <img
-                  class="main-footer__icon main-footer__icon--mr-none"
-                  src="./assets/png/insta-ico.png"
-                  alt="icon"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">Mohit Kumar Pani</h4>
-            <p class="main-footer__short-desc">
-  <strong>Mobile:</strong> 9692265911 <br>
-  <strong>Email:</strong> 
-  <a href="mailto:mohitpani007@gmail.com" style="color: #eee;">
-    mohitpani007@gmail.com
-  </a> <br>
-  <strong>Location:</strong> Bhubneswar, Odisha, India
-</p>
-          </div>
-        </div>
 
-        <div class="main-footer__lower">
-          &copy; Copyright 2027. Made by
-          <a rel="noreferrer" target="_blank" href="#"
-            >Mohit Kumar Pani</a
-          >
-        </div>
-      </div>
-    </footer>
-    <script src="./index.js"></script>
-  </body>
+    </div>
+  </footer>
+
+  <script src="./index.js"></script>
+
+</body>
 </html>
